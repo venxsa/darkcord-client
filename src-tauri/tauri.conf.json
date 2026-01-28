@@ -1,7 +1,7 @@
 {
-	"productName": "Spacebar",
+	"productName": "Darkcord",
 	"version": "./version.json",
-	"identifier": "chat.spacebar.app",
+	"identifier": "chat.darkcord.app",
 	"build": {
 		"frontendDist": "../dist",
 		"devUrl": "http://localhost:1420",
