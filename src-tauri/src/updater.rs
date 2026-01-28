@@ -62,7 +62,7 @@ pub fn check_for_updates<R: Runtime>(ignore_prereleases: bool, window: tauri::Wi
     tauri::async_runtime::spawn(async move {
         println!("[Updater] Searching for update file on github.");
         // Custom configure the updater.
-        let github_releases_endpoint = "https://api.github.com/repos/spacebarchat/client/releases";
+        let github_releases_endpoint = "https://api.github.com/repos/venxsa/darkcord-client/releases";
         let github_releases_endpoint = match Url::parse(github_releases_endpoint) {
             Ok(url) => url,
             Err(e) => {
